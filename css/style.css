@@ -685,6 +685,7 @@ input:focus:-ms-input-placeholder {
 
 .pool-announcement-numbers {
   margin-top: 40px;
+  margin-top: 70px;
 }
 
 .pool-announcement-numbers__content {
@@ -938,6 +939,10 @@ input:focus:-ms-input-placeholder {
 
   .pool-announcement-text__image img {
     width: calc(200px + 220 * ((100vw - 320px) / 990));
+  }
+
+  .pool-announcement-numbers {
+    margin-top: calc(40px + 30 * ((100vw - 320px) / 990));
   }
 
   .pool-announcement-numbers__content {

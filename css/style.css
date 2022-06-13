@@ -754,21 +754,6 @@ input:focus:-ms-input-placeholder {
   right: -30px;
 }
 
-.pool-announcement-numbers__column:nth-child(3)::after {
-  display: none;
-  text-align: center;
-}
-
-.pool-announcement-numbers__column:nth-child(4)::after {
-  display: none;
-  text-align: center;
-}
-
-.pool-announcement-numbers__column:nth-child(5)::after {
-  display: none;
-  text-align: center;
-}
-
 .pool-announcement-number-cell__title {
   text-align: center;
   font-family: "Gilroy-Semibold";
@@ -904,7 +889,7 @@ input:focus:-ms-input-placeholder {
 .pool-announcement__form {
   max-width: 574px;
   margin-left: auto;
-  margin-top: 50px;
+  margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -992,7 +977,7 @@ input:focus:-ms-input-placeholder {
   }
 
   .pool-announcement__form {
-    margin-top: calc(38px + 12 * ((100vw - 320px) / 990));
+    margin-top: calc(38px + 62 * ((100vw - 320px) / 990));
   }
 }
 
@@ -1046,6 +1031,21 @@ input:focus:-ms-input-placeholder {
   .pool-announcement-numbers__column_text .pool-announcement-numbers__cell {
     max-width: 100%;
     margin-top: 30px;
+  }
+
+  .pool-announcement-numbers__column:nth-child(3)::after {
+    display: none;
+    text-align: center;
+  }
+
+  .pool-announcement-numbers__column:nth-child(4)::after {
+    display: none;
+    text-align: center;
+  }
+
+  .pool-announcement-numbers__column:nth-child(5)::after {
+    display: none;
+    text-align: center;
   }
 
   .pool-announcement-numbers__column {
